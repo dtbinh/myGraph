@@ -15,7 +15,7 @@ origin-vertex destiny-vertex value-vertex
 
 Look the graph image and the right file to this graph for an example
 
-![alt text](http://imgur.com/OZi861f "Graph for example")
+![alt text](/myGraph/src/myGraph/graph.png)
 
 ```
 4 4
@@ -45,7 +45,7 @@ public static void main (String[] args){
 			JOptionPane.showMessageDialog(null, "File not found, is not necessary to put the file extension, if you have"
 					+ "a file 'file.txt' , put just 'file' ");
 		} catch (ArrayIndexOutOfBoundsException e){
-			JOptionPane.showMessageDialog(null, "Probable your file dont follow the pattern to be read, see the pattern in <link github>");
+			JOptionPane.showMessageDialog(null, "Probable your file dont follow the pattern to be read, see the pattern in github.com/mateusduraes/mygraph");
 		}
 }
 ```
