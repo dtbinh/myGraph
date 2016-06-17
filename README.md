@@ -15,7 +15,7 @@ origin-vertex destiny-vertex value-vertex
 
 Look the graph image and the right file to this graph for an example
 
-![alt text](/myGraph/src/myGraph/graph.png)
+![alt text](https://github.com/mateusduraes/myGraph/blob/master/src/myGraph/graph.png)
 
 ```
 4 4
