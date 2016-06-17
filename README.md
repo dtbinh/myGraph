@@ -32,7 +32,7 @@ If you already have the file graph following the pattern above. You must execute
 // imports
 public static void main (String[] args){
 	try {
-			Graph g = new Graph("path/anygraph");
+			Graph g = new Graph("path/anygraph"); //no need to input the file extension here, is .txt by default on ReadFile constructor
 			System.out.println("Regular: " + g.isRegular());
 			System.out.println("Simple: " + g.isSimple());
 			System.out.println("Complete: " + g.isComplete());
